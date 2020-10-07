@@ -1,1 +1,79 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 80px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1{
+  opacity: 0.7;
+  letter-spacing: 5px;
+  font-size: 49px;
+  font-style: bold;
+}
+
+.top-wrapper p{
+  opacity: 0.7;
+}
+
+.btn-wrepper a{
+  opacity: 0.8;
+}
+
+.btn {
+  color: white;
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+
+
+.green{
+  margin: 30px 0 15px 0;
+  background-color: #239b76;
+}
+
+.btn-wrepper p {
+margin: 15px 0;  
+}
+
+.blue{
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.sky-blue{
+  background-color: #55acee;
+}
+
+.btn:hover{
+  opacity: 1;
+}
